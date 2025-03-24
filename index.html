@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<body>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  padding: 10px;
+  background: #252AB6;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #F6BE23;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+
+<div class="header">
+  <h1>CJ Home Improvement Services</h1>
+  <p>Quality service at a reasonable price.</p>
+</div>
+</div>
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Gallery</a>
+  <a href="#">Contact</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Come where quality work meets affordable prices!</h2>
+      <h5>Meeting home improvement needs since, 2016</h5>
+      <img src="download.jpeg" alt="Tools" width="600" height="400">
+      <p>Will meet your home improvement needs with precision, professionalism and pride.</p>
+      <p></p>
+    </div>
+    <div class="card">
+      <h2>Working Hard</h2>
+      <h5></h5>
+      <img src="handyman.jpg" alt="man working on furnace" width="600" height="400">
+      <p></p>
+      <p></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img src="Onjob.jpg" alt="man with son on job" width="128" height="200">
+      <p>(Owner)Charles:"I enjoy helping people with basic and complex home improvement projects. I receive great satisfaction when seeing the homeowner's "wow factor" of the before and after. It's very satisfying knowing I've helped make my customer's homes more livable, safer, updated and have helped relieve a bit of stress from their lives. </p>
+    </div>
+    <div class="card">
+      <h3>Testimonials</h3>
+      <div class="fakeimg"><p>Charles did an excellent job installing our bathroom sinks. We are very happy with the end result!
+
+        Ricks
+        September 2024</p></div>
+      <div class="fakeimg"><p>Overall, great experience working with them and their team.
+
+        Brenda S.
+        October 2024</p></div>
+      <div class="fakeimg"><p>Great workmanship, communication and awesome to deal with. Would recommend to anyone thinking of home improvement services.
+        
+        John D.
+        November 2024</p></div>
+      </p></div>
+      <body>  <body>
+        <h1>Contact us</h1>
+        <p>Fill out the form to send us an email</p>
+      <!-- modify this form HTML and place wherever you want your form -->
+      <form
+      action="https://formspree.io/f/mnnpjdkq"
+      method="POST"
+      >
+      <label>
+        Your name:
+        <input type = "text" name="name">
+      </label>
+      Your email:
+      <input type="email" name="email">
+      </label>
+      <label>
+      Your message:
+      <textarea name="message"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+      </form>
+        <head>
+            <title>My site</title>
+            <style>
+      
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                form {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    padding: 1em;
+                    background: #8ac1d2;
+                    border-radius: 5px;
+                }
+                label {
+                    margin-bottom: 1em;
+                    color: #05030e;
+                    display: block;
+                }
+                input, textarea {
+                    border: 1px solid #CCCCCC;
+                    padding: 0.5em;
+                    font-size: 1em;
+                    width: 100%;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                }
+                button {
+                    padding: 0.7em;
+                    color: #fff;
+                    background-color: #2411f2;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #0056b3;
+                }
+            </style>
+        </head>
+      </body>
+      </html>
+    </div>
+  <div class="card">
+      <h3>Follow Me</h3>
+      <p>@CJHomeImprovement</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h4>Copyright Ⓒ</h4>
+</div>
+
+</body>
+</html>
